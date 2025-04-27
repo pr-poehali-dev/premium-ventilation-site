@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Snowflake, Fan, Tools, ShieldCheck, HomeIcon, Building2, Thermometer, Wrench } from "lucide-react";
+import { Snowflake, Fan, Wrench, ShieldCheck, HomeIcon, Building2, Thermometer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const servicesData = [
@@ -17,7 +17,7 @@ const servicesData = [
     link: "/services/ventilation"
   },
   {
-    icon: <Tools className="w-10 h-10 text-blue-600" />,
+    icon: <Wrench className="w-10 h-10 text-blue-600" />,
     title: "Пусконаладочные работы",
     description: "Комплексная настройка и запуск систем кондиционирования и вентиляции.",
     link: "/services/commissioning"
